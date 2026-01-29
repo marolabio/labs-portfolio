@@ -79,11 +79,12 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
+  /* Slightly lighter, blue-leaning background that complements #D54E33 */
+  --background: oklch(0.2 0.03 255);
   --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
+  --card: oklch(0.24 0.03 255);
   --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
+  --popover: oklch(0.24 0.03 255);
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.922 0 0);
   --primary-foreground: oklch(0.205 0 0);
